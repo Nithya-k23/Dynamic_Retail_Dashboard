@@ -2,7 +2,7 @@
 Dynamic Retail Dashboard in Excel.
 Dynamic Retail Dashboard
 
-Overview
+##Overview
 
 The Dynamic Retail Dashboard is an interactive Excel-based dashboard that provides insightful retail analytics using data transformation and visualization techniques. The dashboard connects to a GitHub-hosted dataset, performs transformations in Power Query Editor, and dynamically visualizes key retail metrics.
 
