@@ -13,11 +13,13 @@ The **Dynamic Retail Dashboard** is an interactive Excel dashboard that provides
 The dataset consists of three tables:
 
 ### 1. Orders Table (Sample Data)
+Contains transactional details of orders, including customer information, product details, sales, and profit.
 | Order ID | Returned | Order Date | Ship Date | Ship Mode | Customer ID | Customer Name | Segment | City | State | Country | Postal Code | Market | Region | Product ID | Category | Sub-Category | Product Name | Sales | Quantity | Discount | Profit | Profit Margin | Shipping Cost |
 |----------|----------|------------|-----------|-----------|-------------|--------------|---------|------|-------|---------|-------------|--------|--------|------------|----------|--------------|--------------|-------|----------|----------|--------|--------------|--------------|
 | MX-2011-131688 | Yes | 22-12-2019 | 26-12-2019 | Standard Class | BP-11230 | Benjamin Patterson | Consumer | Toluca | México | Mexico | LATAM | North | OFF-BI-10002799 | Office Supplies | Binders | Acco Binder Covers, Recycled | 36.48 | 4 | 0 | 3.28 | 0.039 | Medium |
 
 ### 2. People Table (Sample Data)
+Contains details of personnel associated with different regions.
 | Person | Region |
 |--------|--------|
 | Anna Andreadi | Central |
@@ -25,6 +27,7 @@ The dataset consists of three tables:
 | Kelly Williams | East |
 
 ### 3. Return Table (Sample Data)
+Contains information about returned orders.
 | Returned | Order ID | Market |
 |----------|----------|--------|
 | Yes | US-2013-122917 | LATAM |
@@ -67,11 +70,8 @@ This table is used to create dynamic charts and metrics.
 2. Count unique Order IDs to get the number of orders.
 3. Calculate profit margin as: `Profit Margin = (Profit / Sales) * 100`.
 4. Store these metrics in the **KPI Table**.
-   
 
 ![kpi](https://github.com/user-attachments/assets/a3ba1652-9202-40df-b48c-c95802929bfa)
-
-
 
 ### 2. Sales and Profit Analysis
 **Steps:**
@@ -170,20 +170,21 @@ Additional analysis can be performed on:
 
 ## How to Use This Dashboard
 
- . Download the Excel file with Power Query integration.
+- Download the Excel file with Power Query integration.
 
- . Ensure data connection is enabled to fetch the latest updates from GitHub.
+- Ensure data connection is enabled to fetch the latest updates from GitHub.
 
- . Use slicers & filters to explore insights interactively.
+- Use slicers & filters to explore insights interactively.
 
- . Leverage KPIs & charts to drive business decisions.
+- Leverage KPIs & charts to drive business decisions.
 
 ---
 ## Visuals
 This repository includes:
 
-Visual examples for each solved problem statement.
-Snapshots of the final dashboard with all components.
+ - Visual examples for each solved problem statement.
+ - Snapshots of the final dashboard with all components.
+
 ![dashb](https://github.com/user-attachments/assets/8b8a2f56-b6e4-4a81-b3a3-e3b625fd1c4e)
 
 ---
