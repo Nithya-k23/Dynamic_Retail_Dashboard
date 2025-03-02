@@ -156,7 +156,7 @@ This table is used to create dynamic charts and metrics.
 **Steps:**
 1. Sort the data by `Total Sales` in descending order.
 2. Filter the **top 5 subcategories**.
-3. Create a **bar chart** for visualization.
+3. Create a **column chart** for visualization.
 
 ![6 top 5 sub category](https://github.com/user-attachments/assets/c4138ba6-64a8-4f4e-a184-1f772bc85469)
 
