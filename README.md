@@ -84,6 +84,8 @@ This table is used to create dynamic charts and metrics.
 3. Create a **bar chart** to visualize category-wise profit.
 ![3 category wise profit](https://github.com/user-attachments/assets/137415f9-d860-4409-a54b-2f6e2f07f857)
 
+
+
 ### 4. Segment-wise Sales Share %
 **Steps:**
 1. Group data by `Segment`.
