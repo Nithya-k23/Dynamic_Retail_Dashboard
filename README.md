@@ -230,3 +230,12 @@ The **Dynamic Retail Dashboard** provides powerful insights into sales and profi
 
 ---
 
+# 🙌 Author
+
+Nithya K
+
+Data Analyst
+
+LinkedIn: https://www.linkedin.com/in/nithya-k-130402148/
+
+---
